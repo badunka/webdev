@@ -38,9 +38,20 @@ button {
   text-align: center;
   text-transform: uppercase;
   justify-content: center;
+  width: 184px;
+  height: 46px
 }
 button:hover {
   background: #009CC2;
+}
+h4 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 .navigation {
   font-weight: 500;
@@ -82,4 +93,39 @@ button:hover {
 .socialIcon {
   margin-right: 30px;
   margin-bottom: 87px;
+}
+.rappresent{
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  color: #4E4E4E;
+  height: 842px;
+}
+.rappresentText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 37% 17%;
+}
+.rappresentImage {
+  display: flex;
+  justify-content: flex-start;
+  flex: 42.3% 0 0;
+  margin-top: 14%;
+  margin-bottom:14%;
+}
+.rappresentParagraf{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+}
+.bold {
+  font-weight: 800;
+}
+.withTechnics {
+  width: 407px;
+  height: 582px;
+}
+#left {
+  justify-content: flex-start;
 }
