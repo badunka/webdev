@@ -1,0 +1,85 @@
+body {
+  width: 1600px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+header{
+  display: flex;
+}
+nav {
+  display: flex;
+  flex: 1 0 0;
+  justify-content: center;
+}
+h1 {
+  font-size: 64px;
+  line-height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+button {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 47px;
+  background: #00AFDB;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: center;
+}
+button:hover {
+  background: #009CC2;
+}
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  display: flex;
+
+  color: #FFFFFF;
+  margin-top:36px;
+  margin-right: 72px;
+}
+.navigation:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.yourLife {
+  background-image: url(assets/bg-first.jpg);
+  height: 744px;
+  width: 100%;
+}
+.about {
+  margin: auto;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+  width: 504px;
+}
+.getStarted {
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.social {
+  display: flex;
+  justify-content: center;
+}
+.socialIcon {
+  margin-right: 30px;
+  margin-bottom: 87px;
+}
