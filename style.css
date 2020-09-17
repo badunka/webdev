@@ -171,15 +171,20 @@ h5 {
 .review{
   display: flex;
   flex-direction: column;
-  flex:44% 0 0;
+  flex: 44.1% 0 0;
 }
 .reviewBlock{
   width: 298px;
   height: 175px;
-  margin: auto;
+  margin: 17% 38%;
+}
+.communityParagraf {
+  text-align: center;
+  margin-top: -5%;
 }
 .reviewPhoto{
   text-align: center;
+  margin: 12% 0% -4% 0%;
 }
 .personPhoto{
   width: 45px;
@@ -190,12 +195,12 @@ h5 {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-  margin: auto;
+  margin: 4.7% 0% 0% 0%;
 }
 .arrows {
   display: flex;
   flex-direction: row;
-  margin: 1% auto;
+  margin: 0% 24% 0% 61%;
 }
 .arrowsSVG {
   padding: 4px;
@@ -203,6 +208,7 @@ h5 {
 .arrowsElement {
   font-size: 18px;
   line-height: 140%;
+  padding: 0% 2px;
 }
 .leftArrows {
   border: solid #373737;
