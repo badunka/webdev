@@ -12,6 +12,7 @@ p {
   font-weight: normal;
   font-size: 14px;
   line-height: 140%;
+  color: #373737;
 }
 header{
   display: flex;
@@ -45,7 +46,8 @@ button {
   text-transform: uppercase;
   justify-content: center;
   width: 184px;
-  height: 46px
+  height: 46px;
+  border:none;
 }
 button:hover {
   background: #009CC2;
@@ -58,6 +60,7 @@ h4 {
   align-items: flex-end;
   letter-spacing: 1px;
   text-transform: uppercase;
+  color: #373737;
 }
 h5 {
   font-weight: 500;
@@ -67,6 +70,7 @@ h5 {
   text-align: center;
   letter-spacing: 2.4px;
   text-transform: uppercase;
+  color: #373737;
 }
 .navigation {
   font-weight: 500;
@@ -239,11 +243,16 @@ h5 {
   color: #FFFFFF;
   margin: auto;
 }
+.emailForm {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
 .lineMail {
   width: 340px;
   height: 46px;
-  background: #FFFFFF;
-  border-radius: 0px;
+  padding: 0px;
 }
 .buttonMail {
   width: 66px;
@@ -254,4 +263,55 @@ h5 {
 }
 .buttonMail:hover {
 background: #009CC2;
+}
+.download {
+  background: #F5F6F7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 468px;
+}
+.textDownload {
+  margin: auto;
+  text-align: center;
+  color: #4E4E4E;
+}
+.textDownload h4 {
+  display: block;
+}
+.articleDownload {
+  height: 40px;
+  width: 483px;
+  text-align: center;
+}
+.buttonDownload {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+.buttonStore {
+  width: 128px;
+  height: 50px;
+  padding: 16px 7px;
+}
+.buttonIcon {
+  background: #009CC2;
+  margin-right: 30px;
+  width: 60px;
+  height: 50px;
+  padding: 16px 7px;
+}
+footer {
+  background: #000000;
+  height: 184px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+.navFooter {
+  border-right: 1px solid #4E4E4E;
+  padding: 21px 0px;
+
 }
