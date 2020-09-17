@@ -13,6 +13,7 @@ p {
   font-size: 14px;
   line-height: 140%;
   color: #373737;
+  margin: 0;
 }
 header{
   display: flex;
@@ -20,7 +21,7 @@ header{
 nav {
   display: flex;
   flex: 1 0 0;
-  justify-content: center;
+  margin: 25px 502px;
 }
 h1 {
   font-size: 64px;
@@ -32,11 +33,12 @@ h1 {
   letter-spacing: 4.5px;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin: 8.5% 26.7% 1.4% 27%;
 }
 button {
   display: flex;
   flex-direction: row;
-  padding: 15px 47px;
+  padding: 15px 40px;
   background: #00AFDB;
   color: #FFFFFF;
   font-weight: bold;
@@ -61,6 +63,7 @@ h4 {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #373737;
+  margin: 0%;
 }
 h5 {
   font-weight: 500;
@@ -77,14 +80,18 @@ h5 {
   font-size: 14px;
   line-height: 140%;
   display: flex;
-
   color: #FFFFFF;
-  margin-top:36px;
-  margin-right: 72px;
+  margin-top: 15px;
+  padding-right: 85px;
 }
 .navigation:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.logo {
+  margin: 0 15px;
+  padding-right: 85px;
 }
 .yourLife {
   height: 744px;
@@ -102,16 +109,15 @@ h5 {
   width: 504px;
 }
 .getStarted {
-  margin-right: auto;
-  margin-left: auto;
+  margin: 1.7% auto;
 }
 .social {
   display: flex;
   justify-content: center;
+  margin: 11.5% 43%;
 }
 .socialIcon {
-  margin-right: 30px;
-  margin-bottom: 87px;
+  margin: 0px 7% 0px 7%;
 }
 .rappresent{
   display: flex;
@@ -123,20 +129,30 @@ h5 {
 .rappresentText {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 37% 17%;
+  height: 220px;
+  width: 480px;
+  margin: 10.5% 16%;
+
 }
 .rappresentImage {
   display: flex;
   justify-content: flex-start;
   flex: 42.3% 0 0;
-  margin-top: 14%;
-  margin-bottom:14%;
+  margin: 7.5% 0%;
+}
+.rappresentText h4{
+  width: 380px;
+  margin: 31% 0% 5% 3%;
 }
 .rappresentParagraf{
   font-weight: normal;
   font-size: 14px;
   line-height: 140%;
+  width: 410px;
+  margin: 0% 0% 0% 3%;
+}
+#Left {
+  margin: 8% 0% 0% 2.7%;
 }
 .bold {
   font-weight: 800;
@@ -180,6 +196,9 @@ h5 {
   display: flex;
   flex-direction: row;
   margin: 1% auto;
+}
+.arrowsSVG {
+  padding: 4px;
 }
 .arrowsElement {
   font-size: 18px;
