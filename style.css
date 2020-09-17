@@ -307,11 +307,32 @@ footer {
   height: 184px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  color: #FFFFFF;
+}
+footer nav {
+  flex: 0 0 0;
+  margin: 3%;
 }
 .navFooter {
   border-right: 1px solid #4E4E4E;
-  padding: 21px 0px;
+  padding: 0px 21px;
+  margin: auto;
+  color: #FFFFFF;
+}
+.navFooterOUT {
+  color: #FFFFFF;
+  padding: 0px 21px;
+  margin: auto;
+}
+.logoFooter {
+  margin: auto;
+}
+.author {
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
 
+}
+.author2020 {
+  font-weight: normal;
+  color: #818181;
 }
