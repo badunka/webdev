@@ -4,6 +4,7 @@ body {
   display: flex;
   width: 1600px;
   flex-direction: column;
+  margin: auto;
 }
 a {
   text-decoration: none;
@@ -11,7 +12,7 @@ a {
 p {
   font-weight: normal;
   font-size: 14px;
-  line-height: 140%;
+  line-height: 144%;
   color: #373737;
   margin: 0;
 }
@@ -88,7 +89,6 @@ h5 {
   text-decoration: underline;
   cursor: pointer;
 }
-
 .logo {
   margin: 0 15px;
   padding-right: 85px;
@@ -96,11 +96,11 @@ h5 {
 .yourLife {
   height: 744px;
   background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/bg-first.jpg);
-  background-size:  cover;
+  background-size: cover;
   background-position: center;
 }
 .about {
-  margin: auto;
+  margin: 0% 0% 0% 34.4%;
   font-weight: normal;
   font-size: 18px;
   line-height: 140%;
@@ -109,12 +109,12 @@ h5 {
   width: 504px;
 }
 .getStarted {
-  margin: 1.7% auto;
+  margin: 1.7% 0% 0% 44.2%;
 }
 .social {
   display: flex;
   justify-content: center;
-  margin: 11.5% 43%;
+  margin: 11.5% 43.4%;
 }
 .socialIcon {
   margin: 0px 7% 0px 7%;
@@ -147,12 +147,12 @@ h5 {
 .rappresentParagraf{
   font-weight: normal;
   font-size: 14px;
-  line-height: 140%;
+  line-height: 144%;
   width: 410px;
   margin: 0% 0% 0% 3%;
 }
 #Left {
-  margin: 8% 0% 0% 2.7%;
+  margin: 7.4% 0% 0% 3.1%;
 }
 .bold {
   font-weight: 800;
@@ -178,13 +178,16 @@ h5 {
   height: 175px;
   margin: 17% 38%;
 }
+.reviewText {
+  margin: 0% 0% 0% 1%;
+}
 .communityParagraf {
   text-align: center;
   margin-top: -5%;
 }
 .reviewPhoto{
   text-align: center;
-  margin: 12% 0% -4% 0%;
+  margin: 12% 0% -4% 1%;
 }
 .personPhoto{
   width: 45px;
@@ -195,20 +198,20 @@ h5 {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-  margin: 4.7% 0% 0% 0%;
+  margin: 4.9% 0% 0% 0.05%;
 }
 .arrows {
   display: flex;
   flex-direction: row;
-  margin: 0% 24% 0% 61%;
+  margin: 0% 24% 0% 60%;
 }
 .arrowsSVG {
-  padding: 4px;
+  padding: 1.7% 5% 14.4% 5%;
 }
 .arrowsElement {
   font-size: 18px;
   line-height: 140%;
-  padding: 0% 2px;
+  padding: 0% 0% 0% 2.5%;
 }
 .leftArrows {
   border: solid #373737;
@@ -241,12 +244,11 @@ h5 {
   height: 842px;
   background: #FFFFFF;
 }
-.photoImplement {
-  margin: auto;
-}
+
 .photoNotebook {
   width: 407px;
   height: 582px;
+  margin:29.5% 0% 0% 66.3%;
 }
 .textImplement {
   display: flex;
@@ -254,30 +256,34 @@ h5 {
   align-items: flex-start;
   width: 407px;
   height: 184px;
-  margin: auto;
+  margin: 20% 0% 0% 25.5%;
+ }
+ .textImplement button {
+   margin: 2.8% 0% 0% 0%;
+   width: 180px;
  }
 .subscribe {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(assets/bg-second.jpg);
-  background-size:  cover;
-  background-position: bottom;
+  background-position: 50% 90%;
   height: 598px;
   display: flex;
   flex-direction: column;
 }
 .titleSubscribe {
   color: #FFFFFF;
-  margin: auto;
+  margin: 13.6% 0% 0% 38.25%;
 }
 .emailForm {
   display: flex;
   flex-direction: row;
-  margin: auto;
+  margin: 1.85% 0% 0% 37.35%;
 }
 
 .lineMail {
-  width: 340px;
+  width: 317px;
   height: 46px;
-  padding: 0px;
+  border: none;
+  padding: 0% 0% 0% 2.3%;
 }
 .buttonMail {
   width: 66px;
@@ -285,6 +291,7 @@ h5 {
   background: #00AFDB;
   border: #00AFDB;
   border-radius: 0px;
+  padding: 1.6% 0% 0% 0.2%;
 }
 .buttonMail:hover {
 background: #009CC2;
@@ -297,7 +304,7 @@ background: #009CC2;
   height: 468px;
 }
 .textDownload {
-  margin: auto;
+  margin: 7.5% 0% 0% 2px;
   text-align: center;
   color: #4E4E4E;
 }
@@ -308,24 +315,25 @@ background: #009CC2;
   height: 40px;
   width: 483px;
   text-align: center;
+  margin: 4.1% 0% 0% 0.2%;
 }
 .buttonDownload {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: auto;
+  margin: 1.9% 0% 0% 1.9%;
 }
 .buttonStore {
   width: 128px;
   height: 50px;
-  padding: 16px 7px;
+  padding: 18px 0px 0px 8px;
 }
 .buttonIcon {
   background: #009CC2;
   margin-right: 30px;
   width: 60px;
   height: 50px;
-  padding: 16px 7px;
+  padding: 15px 0px 0px 1px;
 }
 footer {
   background: #000000;
@@ -335,26 +343,33 @@ footer {
 }
 footer nav {
   flex: 0 0 0;
-  margin: 3%;
+  margin: 4.7% 0% 5.9% 8.7%;
 }
-.navFooter {
+.navFooter  {
+  padding: 0px 19px 0px 21px;
+  margin: 0%;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+}
+nav span {
   border-right: 1px solid #4E4E4E;
-  padding: 0px 21px;
-  margin: auto;
-  color: #FFFFFF;
+  height: 8px;
+  margin: 5px 0px;
 }
-.navFooterOUT {
-  color: #FFFFFF;
-  padding: 0px 21px;
-  margin: auto;
+
+nav a:last-child {
+  border-right: none;
+  width: 65px;
 }
 .logoFooter {
-  margin: auto;
+  margin: 3.7% 0% 0% 22.6%;
 }
 .author {
   display: flex;
   flex-direction: row;
-  margin: 5%;
+  margin: 4.6% 0% 0% 28.1%;
 
 }
 .author2020 {
