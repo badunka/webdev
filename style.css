@@ -8,7 +8,9 @@ body {
 }
 a {
   text-decoration: none;
+  cursor: pointer;
 }
+
 p {
   font-weight: normal;
   font-size: 14px;
@@ -34,12 +36,11 @@ h1 {
   letter-spacing: 4.5px;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin: 8.5% 26.7% 1.4% 27%;
+  margin: 8.46% 26.7% 1.4% 27.07%;
 }
 button {
   display: flex;
   flex-direction: row;
-  padding: 15px 40px;
   background: #00AFDB;
   color: #FFFFFF;
   font-weight: bold;
@@ -51,9 +52,12 @@ button {
   width: 184px;
   height: 46px;
   border:none;
+  letter-spacing: -1px;
+  padding: 15px 47px 15px 44px;
 }
 button:hover {
   background: #009CC2;
+  cursor: pointer;
 }
 h4 {
   font-weight: bold;
@@ -89,6 +93,9 @@ h5 {
   text-decoration: underline;
   cursor: pointer;
 }
+nav a:first-child {
+  text-decoration: underline;
+}
 .logo {
   margin: 0 15px;
   padding-right: 85px;
@@ -100,7 +107,7 @@ h5 {
   background-position: center;
 }
 .about {
-  margin: 0% 0% 0% 34.4%;
+  margin: 0% 0% 0% 34.28%;
   font-weight: normal;
   font-size: 18px;
   line-height: 140%;
@@ -109,7 +116,7 @@ h5 {
   width: 504px;
 }
 .getStarted {
-  margin: 1.7% 0% 0% 44.2%;
+  margin: 1.75% 0% 0% 44.2%;
 }
 .social {
   display: flex;
@@ -118,6 +125,10 @@ h5 {
 }
 .socialIcon {
   margin: 0px 7% 0px 7%;
+}
+.socialIcon svg:hover {
+  cursor: pointer;
+  stroke: #00AFDB;
 }
 .rappresent{
   display: flex;
@@ -147,8 +158,8 @@ h5 {
 .rappresentParagraf{
   font-weight: normal;
   font-size: 14px;
-  line-height: 144%;
-  width: 410px;
+  line-height: 149%;
+  width: 408px;
   margin: 0% 0% 0% 3%;
 }
 #Left {
@@ -207,6 +218,9 @@ h5 {
 }
 .arrowsSVG {
   padding: 1.7% 5% 14.4% 5%;
+}
+.arrowsSVG:hover {
+  cursor: pointer;
 }
 .arrowsElement {
   font-size: 18px;
@@ -296,6 +310,12 @@ h5 {
 .buttonMail:hover {
 background: #009CC2;
 }
+.buttonMail svg:hover {
+  cursor: pointer;
+}
+.buttonMail path:hover {
+  fill: #000000;
+}
 .download {
   background: #F5F6F7;
   display: flex;
@@ -326,7 +346,7 @@ background: #009CC2;
 .buttonStore {
   width: 128px;
   height: 50px;
-  padding: 18px 0px 0px 8px;
+  padding: 18px 0px 0px 0px;
 }
 .buttonIcon {
   background: #009CC2;
@@ -334,6 +354,9 @@ background: #009CC2;
   width: 60px;
   height: 50px;
   padding: 15px 0px 0px 1px;
+}
+.buttonIcon path:hover {
+  fill: #000000;
 }
 footer {
   background: #000000;
@@ -358,19 +381,20 @@ nav span {
   height: 8px;
   margin: 5px 0px;
 }
-
 nav a:last-child {
   border-right: none;
   width: 65px;
 }
+footer nav a:first-child {
+  text-decoration: none;
+}
 .logoFooter {
-  margin: 3.7% 0% 0% 22.6%;
+  margin: 3.8% 0% 0% 22.65%;
 }
 .author {
   display: flex;
   flex-direction: row;
   margin: 4.6% 0% 0% 28.1%;
-
 }
 .author2020 {
   font-weight: normal;
